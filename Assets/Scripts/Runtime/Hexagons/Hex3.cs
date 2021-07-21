@@ -138,6 +138,10 @@ namespace PPP.Hexagons {
             return hash;
         }
 
+        public override string ToString() {
+            return $"({p}, {q}, {s})";
+        }
+
         static bool IsValid(int p, int q, int s) {
             return p + q + s == 0;
         }

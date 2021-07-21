@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace PPP.Hexagons {
-    /// <summary>
-    /// IncreaseOnAxis where Increase = 1 and Axis = 0. The remaining Coordinate is -1;
-    /// </summary>
     public enum Direction {
         upLeft = 0,
         upRight = 1,
